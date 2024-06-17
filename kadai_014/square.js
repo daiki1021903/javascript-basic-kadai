@@ -1,6 +1,6 @@
 const square=(num)=>{
-    console.log(num*num)
+    return num*num   
 }
 
-square(3);
-square(6);
+console.log(square(3));
+console.log(square(6));
